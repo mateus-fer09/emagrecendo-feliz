@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --cor1: #260401;
+    --cor2: #D9D7D7;
+    --cor3: #D91111;
+    --cor4: #F28F38;
+    --cor5: #FFD131;
+    --cor6: #592316;
+    --cor7: #8C030E;
+    --cor8: #000;
+}
+
+body {
+    background-color: var(--cor8);
+}
+
+.main {
+   margin-top: 25px;
+}
+
+.main .part-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .part-1 h2 {
+    color: var(--cor5);
+    margin-top: 25px;
+}
+
+.main .part-1 p {
+    color: var(--cor2);
+    max-width: 450px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main .part-1 img {
+    width: 150px;
+}
+
+.main .part-1 img:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+.main .links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.main .links a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: var(--cor5);
+    color: var(--cor8);
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+.main .links a:hover {
+    background-color: var(--cor2);
+    color: var(--cor8);
+    transition: 0.5s;
+    transform: scale(0.9);
+}
